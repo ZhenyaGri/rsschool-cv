@@ -22,7 +22,8 @@ I am a second year student at a technical university. During my studies, I am ex
 
 ## CODE EXAMPLE
 
-```function firstNonRepeatingLetter(s) {
+```
+function firstNonRepeatingLetter(s) {
   let string = s.toLowerCase();
   for(let i = 0; i < s.length; i++){
     if ((string.replace(string[i], '')).indexOf(string[i]) == -1)
