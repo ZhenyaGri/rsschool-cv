@@ -1,4 +1,5 @@
 ## EVGENIA GRIBOVA
+![photo for resume](/images/avatar.JPG)
 ### CONTACTS
 **phone** +7-953-616-50-10  
 **email** eva.gribova.2003@gmail.com  
@@ -28,10 +29,10 @@ Tools used: JavaScript, HTML, CSS, Figma
 ### EDUCATION
 + **Banking College of the Russian Academy of National Economy and Public Administration**
 	>Specialty Economics and Accounting	 	
-	Orel, Russia  
+	>Orel, Russia  
 + **MIREA - Russian Technological University**
 	>Bachelor's degree in Applied Informatics	 	
- 	Moscow, Russia
+  >Moscow, Russia
 + **Digital Product Design course**
 	>MIREA - Russian Technological University
 ### LANGUAGES
