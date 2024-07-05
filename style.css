@@ -1,26 +1,100 @@
 /* Стили для body */
 body {
-    font-family: Arial, sans-serif; /* Шрифт для всего текста на странице */
-    background-color: #ffffff; /* Цвет фона страницы */
+    font-family: 'Roboto', sans-serif; /* Шрифт для всего текста на странице */
+    background-color: hsl(75, 100%, 93%); /* Цвет фона страницы */
+    color: #181d43;
 }
 
 /* Стили для заголовков */
 h1 {
     font-size: 32px; /* Размер шрифта заголовка h1 */
+    text-align: center;
+    color: #4956b7;
 }
 
 h2 {
     font-size: 24px; /* Размер шрифта заголовка h1 */
+    text-align: center;
+    color: #4956b7;
 }
 
 /* Стили для параграфов */
 p {
     font-size: 16px; /* Размер шрифта параграфов */
-    line-height: 1.5; /* Межстрочный интервал */
+        
 }
 
 /* Стили для ссылок */
 a {
-    color: #007bff; /* Цвет ссылок */
+    color: #4956b7; /* Цвет ссылок */
     text-decoration: none; /* Убираем подчеркивание */
+}
+
+code {
+    font-size: 16px;
+}
+
+section{
+    
+    width: 60%;
+    margin: auto;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+header img {
+    border-radius: 20px;
+}
+
+.experience {
+    text-align: center;
+
+}
+
+.experience p{
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+.edication {
+    font-weight: 600;
+}
+
+.edication p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.adress {
+    font-weight:300;
+    color: rgb(148, 142, 172);
+    text-align: right;
+}
+
+
+.element {
+    margin-left: 100px;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.language p {
+    margin: 0;
+    margin-right: 15px;
+    
 }
