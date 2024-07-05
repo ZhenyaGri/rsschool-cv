@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>CV Gribova Evgeniya</title>
+</head>
+<body>
+    <header>
+        <img src="images/avatar.JPG" alt="Photo of the resume author's face" >
+
+        <section> <!-- Контакты-->
+            <h1>EVGENIYA GRIBOVA</h1>
+            <p> <b>Phone</b> +7-953-616-50-10</p>
+            <p> <b>Email</b> eva.gribova.2003@gmail.com</p>
+            <p> <b>Telegram</b> <a href="https://t.me/zhenyagri">@zhenyagri</a> </p>
+
+        </section> 
+
+    </header>
+    <main>
+        <section><!-- Обо мне-->
+            <h2>ABOUT ME</h2>
+            <p class="about_me">I am a second year student at a technical university. During my studies, I am expanding my knowledge in the fields of analytics, interface development and design. I dream of creating applications that make people's lives easier and more pleasant.</p>
+        </section>
+
+        <section>
+            <h2>MY SKILLS</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML, CSS</li>
+                <li>Git</li>
+                <li>Figma, Photoshop</li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>CODE EXAMPLE</h2>
+            <pre>
+                <code>function firstNonRepeatingLetter(s) {
+                let string = s.toLowerCase();
+                for(let i = 0; i &lt; s.length; i++){
+                    if ((string.replace(string[i], '')).indexOf(string[i]) == -1)
+                        return s[i];
+                    }
+                return '';
+            }</code>
+            </pre>
+        </section>
+
+        <section>
+            <H2>WORK EXPERIENCE</H2>
+            <div class="experience">
+                <img src="images/weather-week.png" alt="weather site with cells showing the weather for each day of the coming week" width="700">
+                <p>Team development of a weather forecast website for a period of 6 months.</p>  
+                <p><b>Tools used:</b> JavaScript, HTML, CSS, Figma</p>
+            </div>
+            
+        </section>
+
+        <section>
+            <h2>EDUCATION</h2>
+            <ul>
+                <li class="edication">Banking College of the Russian Academy of National Economy and Public Administration
+                    <p>Specialty Economics and Accounting.</p>
+                    <p class="adress">Orel, Russia</p>
+                </li>
+                
+
+                <li class="edication">MIREA - Russian Technological University
+                    <p>Bachelor's degree in Applied Informatics.</p>
+                    <p class="adress">Moscow, Russia</p>
+                </li>
+                                
+                <li class="edication">Digital Product Design course
+                    <p>MIREA - Russian Technological University.</p>
+                </li>
+                
+            </ul>
+        </section>
+
+        <section>
+
+            <h2 class="languages">LANGUAGES</h2>
+            <div class="language">
+                <p ><b>Russian</b></p>
+                <p>native</p>
+            </div>
+            <div class="language">
+                <p ><b>English</b></p>
+                <p>beginner, A1</p>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="https://github.com/ZhenyaGri"><img src="images/GitHub_Logo.png" alt="logo service GitHub" width="50"></a>
+        <p class="element"><b>2024</b></p>
+        <a class="element" href="https://rs.school/courses/javascript-ru"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg" alt="frontend school logo - RS School" width="100"></a>
+    </footer>
+</body>
+</html>
